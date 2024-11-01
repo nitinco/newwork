@@ -4,7 +4,6 @@ import { Link } from 'expo-router'
 import CategoryData from './CategoryData'
 import crowserData from './crowserData'
 import { GestureHandlerRootView } from 'react-native-gesture-handler'
-import AppleStyleSwipeableRow from './AppleStyleSwipeableRow'
 import { useTheme } from '../context/ThemeContext'
 
 const index = () => {
@@ -150,7 +149,7 @@ const index = () => {
             
             <Link style={styles.loginButton} href="/(auth)">Login</Link>
             <View>
-               <AppleStyleSwipeableRow/>
+               
             </View>
         </View>
         </GestureHandlerRootView>
